@@ -18,6 +18,13 @@ body{
     font-family: var(--body-font);
     height: 100vh;
     background-color: #0b0c10;
+    padding: 50px 5%;
 }
 
-.container
+.container{
+    position: relative;
+    height: 100%;
+    background-color: #1f2833;
+    border-radius: 30px;
+
+}
