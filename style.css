@@ -136,3 +136,25 @@ header{
         color: var(--primary-color);
     }
 }
+
+
+.home-img{
+    .img-box{
+        position: relative;
+        width: 28vw;
+        height: 28vw;
+        border: 2px solid var(--primary-color);
+        border-radius: 50%;
+        box-shadow: 0 0 20px var(--primary-color);
+        overflow: hidden;
+        
+        img{
+            position: absolute;
+            display: block;
+            width: 100%;
+            object-fit: cover;
+
+        }
+    }
+
+}
