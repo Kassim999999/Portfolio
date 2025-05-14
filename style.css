@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root{
+     --header-font: 'Oswald', serif;
+     --body-font: 'Montserrat', serif;
+     --primary-color: #c5c6c7;
+     --tertiary-color: #66fcf1;
+}
+
+body{
+    font-family: var(--body-font);
+    height: 100vh;
+    background-color: #0b0c10;
+}
+
+.container
