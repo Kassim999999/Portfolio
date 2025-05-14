@@ -26,5 +26,16 @@ body{
     height: 100%;
     background-color: #1f2833;
     border-radius: 30px;
+}
 
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
