@@ -32,6 +32,14 @@ h1{
     height: 100%;
     background-color: #1f2833;
     border-radius: 30px;
+    transform: scale(0);
+    animation: zoom-in 1s ease forwards;
+}
+
+@keyframes zoom-in{
+    100%{
+        transform: scale(1);
+    }
 }
 
 header{
@@ -44,6 +52,20 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.animated{
+    transform: translateY(30px);
+    opacity: 0;
+    animation: slide-in 1s ease forwards;
+    animation-delay: 1s;
+}
+
+@keyframes slide-in{
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .logo{
@@ -75,6 +97,7 @@ header{
     gap: 50px;
     padding: 50px 5% 0;
     color: var(--primary-color);
+    animation-delay: 1.5s;
 
 }
 
